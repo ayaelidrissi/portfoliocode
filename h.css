@@ -1,0 +1,193 @@
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Bowlby+One);
+  
+  
+
+      h3{
+          font-family: 'Varela Round';
+          color: #082066;
+      }
+
+*{
+  font-family: 'Varela Round';
+  font-size: 25px;
+ background-color: #fff8e3;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  
+ 
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #fff8e3;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: #e1822c;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+li a:hover:not(.active) {
+background-color:#f8dd8a;
+}
+
+/*stable*/
+
+
+::-moz-selection {
+  background: #009688;
+  color: #fff8e3;
+}
+
+::selection {
+  background: #009688;
+  color:  #fff8e3;
+}
+
+body {
+  font-family: 'Bowlby One';
+  background-color:  #fff8e3;
+  color: #000;
+  font-size: 16px;
+}
+
+div {
+  width: 49%;
+  margin: auto;
+  text-align: center;
+  perspective: 800px;
+  min-width: 320px;
+  margin-top: 4em;
+}
+
+span {
+  display: inline-block;
+  color: #85ccc1;
+  font-size: 4em;
+  transform-origin: 50% 70%;
+}
+
+br {
+  display: none;
+}
+
+
+/* Every second span */
+
+span:nth-child(2n) {
+  color: #85ccc1;
+}
+
+span:nth-child(1) {
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) .2s both;
+}
+
+span:nth-child(2) {
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55).4s both;
+}
+
+span:nth-child(3) {
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55).6s both;
+}
+
+span:nth-child(4) {
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) .8s both;
+}
+
+span:nth-child(5) {
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) 1s both;
+  padding: 0 20px;
+  display: block;
+}
+
+span:nth-child(6) {
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) 1.2s both;
+}
+
+span:nth-child(7) {
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) 1.4s both;
+}
+
+span:nth-child(8) {
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) 1.6s both;
+}
+
+span:nth-child(9) {
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) 1.6s both;
+}
+
+span:nth-child(10) {
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) 1.8s both;
+}
+
+span:nth-child(11) {
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) 2s both;
+}
+span:nth-child(12) {
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) 2.2s both;
+}
+span:nth-child(13) {
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) 2.4s both;
+}
+span:nth-child(14) {
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) 2.8s both;
+}
+
+/* ANIMATION */
+
+@keyframes flipUp {
+  from {
+    transform: rotateX(90deg);
+  }
+  to {
+    transform: rotateX(0deg);
+  }
+}
+
+
+/* RESPONSIVE STUFF */
+
+@media screen and (min-width: 400px) {
+  span {
+    font-size: 4em;
+  }
+  span:nth-child(5) {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  span {
+    font-size: 5em;
+  }
+  span:nth-child(5) {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 916px) {
+  span {
+    font-size: 6.2em;
+  }
+  span:nth-child(5) {
+    display: inline-block;
+    margin: 0;
+    
+  }
+}
+

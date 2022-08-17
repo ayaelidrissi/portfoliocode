@@ -1,0 +1,61 @@
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Bowlby+One);
+  
+  
+
+h1{
+    font-size:70px;
+    color: #1e41c1;
+
+}
+
+p{
+          color:#082066;
+}
+
+*{
+font-family: 'Varela Round';
+font-size: 25px;
+background-color: #fff8e3;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+
+
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #fff8e3;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: #e1822c;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+li a:hover:not(.active) {
+background-color:#f8dd8a;
+}
+
+/*stable*/
+
+
+
+tr,td{
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          color: #082066;
+}
